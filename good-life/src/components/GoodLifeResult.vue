@@ -225,7 +225,6 @@ export default {
         const chunk = arr.slice(begin, begin + chunkSize)
         chunks.push(chunk)
       }
-
       return chunks
     },
     toJapNum(num) {
